@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.customer-list {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.customer-card {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.customer-card:hover {
+  background-color: #f0f0f0;
+}
+
+.customer-card.selected {
+  background-color: #cce5ff;
+}
+
+.customer-details {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
