@@ -7,7 +7,7 @@ const App = () => {
 
   useEffect(() => {
     // Fetching customer data from an API
-    fetch('')
+    fetch('#')
       .then(response => response.json())
       .then(data => setCustomers(data))
       .catch(error => console.error('Error fetching customers:', error));
@@ -24,8 +24,7 @@ const App = () => {
   };
 
   const changePhotos = () => {
-    // Logic to change photos in the grid
-    // You can fetch new photos from a public API and update state accordingly
+
     console.log('Changing photos...');
   };
 
